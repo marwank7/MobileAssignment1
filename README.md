@@ -1,4 +1,3 @@
 # MobileAssignment1
-This assignment is almost complete.
-What remains is to search for movies using the title or part of it.
-for the remaining options (Genre and year) there's an option to leave the spinners empty.
+You can search for movies using year, genre and or name(or part of it).
+Also for the search options (title, genre and year) there's an option to leave the editText or spinners empty and just fill in whatever field you need.
