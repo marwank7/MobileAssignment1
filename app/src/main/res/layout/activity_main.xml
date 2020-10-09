@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    android:orientation="vertical"
+
+
+    >
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOVIE STORE"
+        android:textColor="@android:color/darker_gray"
+        android:fontFamily="@font/pacifico_regular"
+        />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Movie Title"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/pacifico_regular"
+        android:textSize="70px"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/movieTitle"
+        android:hint="Enter movie title"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:width="150pt"
+        android:height="20pt"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Movie Genre"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/pacifico_regular"
+        android:textSize="70px"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/spinner1"
+        android:background="@android:color/white"
+        android:minWidth="40pt"
+        android:minHeight="20pt"
+/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Movie Year"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/pacifico_regular"
+        android:textSize="70px"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/spinner2"
+        android:background="@android:color/white"
+        android:minWidth="40pt"
+        android:minHeight="20pt"
+/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Search"
+        android:layout_marginTop="20dp"
+        android:onClick="btnOnClick"
+        android:id="@+id/btnGetMovies"
+        android:fontFamily="@font/pacifico_regular"
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="Result"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/pacifico_regular"
+        android:textSize="70px"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/result"
+        android:width="150pt"
+        android:height="20pt"
+        android:background="@android:color/white"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="10px"
+        android:background="@drawable/film"
+        />
+</LinearLayout>
